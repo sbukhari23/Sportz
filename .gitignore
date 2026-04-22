@@ -2,6 +2,7 @@
 logs
 *.log
 npm-debug.log*
+.output
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
@@ -45,6 +46,7 @@ jspm_packages/
 web_modules/
 
 # TypeScript cache
+.pnpm-store
 *.tsbuildinfo
 
 # Optional npm cache directory
@@ -81,6 +83,10 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
+<<<<<<< HEAD
+=======
+.output
+>>>>>>> 2a3bcf2 (Index.js)
 
 # Gatsby files
 .cache/
@@ -125,6 +131,12 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+<<<<<<< HEAD
+=======
+# pnpm
+.pnpm-store
+
+>>>>>>> 2a3bcf2 (Index.js)
 # yarn v3
 .pnp.*
 .yarn/*
@@ -134,6 +146,13 @@ dist
 !.yarn/sdks
 !.yarn/versions
 
+<<<<<<< HEAD
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+=======
+# Vite files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+.vite/
+>>>>>>> 2a3bcf2 (Index.js)
